@@ -15,7 +15,7 @@ export function ProjectGantt({ tasks }: ProjectGanttProps) {
     return (
       <Card>
         <CardHeader>
-          <CardTitle>Project Timeline</CardTitle>
+          <CardTitle>Task Timeline</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-center text-gray-500 py-8">
@@ -29,7 +29,7 @@ export function ProjectGantt({ tasks }: ProjectGanttProps) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Project Timeline</CardTitle>
+        <CardTitle>Task Timeline</CardTitle>
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
